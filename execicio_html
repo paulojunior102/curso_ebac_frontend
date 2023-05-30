@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<h1>Cadastro de Astronautas</h1>
+<p><strong>Informe seus dados:</strong></p>
+<div>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="inome" required />
+</div>
+<br />
+<div>
+  <form>
+    <label for="s">Sobrenome:</label>
+    <input type="text" id="s" name="inome" required />
+  </form>
+</div>
+<br />
+<div>
+  <form>
+    <label for="e">Email:</label>
+    <input type="email" id="e" name="inome" required />
+  </form>
+</div>
+<br />
+<div>
+  <form>
+    <label for="s">Senha:</label>
+    <input type="password" id="s" name="inome" required />
+    <hr />
+  </form>
+  <div>
+    <form>
+      <label for="d">Informe sua data de nascimento:</label>
+      <input type="date" id="d" />
+    </form>
+    <br />
+  </div>
+  <form>
+    <label for="f">Selecione uma fotografia:</label>
+    <input type="file" id="f" required />
+  </form>
+  <br />
+</div>
+<div>
+  <form>
+    <label for="browsers">Selecione sua nacionalidade:</label>
+    <input list="browsers" />
+    <datalist id="browsers">
+      <option value="Brasileiro"></option>
+      <option value="Americano"></option>
+      <option value="Russo"></option>
+    </datalist>
+  </form>
+  <br />
+</div>
+<div>
+  <form>
+    <p>
+      Indentifique seu sexo:
+      <input type="radio" name="gender" value="masculino" />masculino
+      <input type="radio" name="gender" value="Feminino" />Feminino
+      <input type="radio" name="gender" value="Outro" />Outro
+    </p>
+  </form>
+  <br />
+</div>
+<div>
+  <p>Descreva o porque voce deseja ser um astronauta:</p>
+  <textarea cols="30" rows="10" placeholder="escreva"></textarea>
+</div>
+<div>
+  <div><input type="submit" value="Enviar" /></div>
+</div>
