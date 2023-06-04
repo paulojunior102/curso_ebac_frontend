@@ -1,0 +1,44 @@
+.first_news {
+  text-align: center;
+  border-width: 10px;
+  border-style: groove;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  border-image: fill;
+}
+.secund_news {
+  background-color: rgb(107, 238, 111);
+  border-style: groove;
+  border-radius: 10px;
+  border-width: 10px;
+}
+.third_news {
+  border-style: groove;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: #e9d2e4;
+}
+.styleNavbar {
+  border-style: groove;
+  text-align: center;
+  text-decoration: underline;
+  background-color: #ccc;
+  border-radius: 20px;
+  border-width: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fourth_news {
+  border-style: groove;
+  border-radius: 10px;
+  border-width: 10px;
+  background-color: #fcd9c5;
+}
+.titulo {
+  border-style: groove;
+  border-width: 8px;
+  border-radius: 15px;
+  text-decoration: underline;
+}
+body {
+  background-color: #ccc;
+}
